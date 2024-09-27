@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Wall
+  - Object
+  - Enemy
+  - Temp
+  - Destructible
   layers:
   - Default
   - TransparentFX
@@ -11,12 +16,12 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Enemy
+  - Wall
+  - Projectile
+  - Objects
+  - Destructible
   - 
   - 
   - 
@@ -40,4 +45,40 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Floor
+    uniqueID: 860516613
+    locked: 0
+  - name: Decal
+    uniqueID: 809474439
+    locked: 0
+  - name: Corpse
+    uniqueID: 4281603755
+    locked: 0
+  - name: Objects
+    uniqueID: 2052006669
+    locked: 0
+  - name: Under Above Objects
+    uniqueID: 2638680893
+    locked: 0
+  - name: Above Objects
+    uniqueID: 2218418609
+    locked: 0
+  - name: Pickups
+    uniqueID: 3309632153
+    locked: 0
+  - name: Wall
+    uniqueID: 803309783
+    locked: 0
+  - name: Projectile
+    uniqueID: 857270431
+    locked: 0
+  - name: Unit Bottom
+    uniqueID: 3436999569
+    locked: 0
+  - name: Unit Top
+    uniqueID: 2326349203
+    locked: 0
+  - name: Overhead
+    uniqueID: 2602307177
     locked: 0
